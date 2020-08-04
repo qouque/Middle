@@ -45,7 +45,6 @@ public class itemaddController implements Initializable{
 		item_add.setOnAction(event -> {
 			
 			String price = ruby_price.getText();
-			System.out.println(price);
 			for (int i = 0; i < price.length(); i++) {
 				String character = String.valueOf(price.charAt(i));
 				

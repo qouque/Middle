@@ -7,7 +7,7 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="353.0" prefWidth="405.0" style="-fx-background-color: FFE0C6;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane fx:controller="kr.or.ddit.widu.controller.shop.admin.itemdeletepopupController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="353.0" prefWidth="405.0" style="-fx-background-color: FFE0C6;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Label layoutX="52.0" layoutY="177.0" style="-fx-font-size: 20;" text="아이템을 정말 삭제하시겠습니까?" />
       <JFXButton fx:id="del_btn" blendMode="GREEN" buttonType="RAISED" contentDisplay="TOP" layoutX="129.0" layoutY="281.0" style="-fx-background-color: FFBDA3;" text="삭제하기">

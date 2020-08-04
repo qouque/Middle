@@ -61,8 +61,7 @@
       <ComboBox fx:id="shop_combobox" layoutX="29.0" layoutY="396.0" prefHeight="34.0" prefWidth="119.0" />
       <JFXTextField fx:id="shop_content_input" layoutX="172.0" layoutY="403.0" prefHeight="23.0" prefWidth="237.0" promptText="내용을 입력해주세요 ▶" />
       <JFXButton fx:id="shop_select" buttonType="RAISED" layoutX="429.0" layoutY="400.0" prefHeight="31.0" prefWidth="74.0" text="검색" />
-      <JFXButton fx:id="shop_add" buttonType="RAISED" layoutX="316.0" layoutY="450.0" prefHeight="31.0" prefWidth="74.0" text="추가" />
-      <JFXButton fx:id="shop_modify" buttonType="RAISED" layoutX="409.0" layoutY="450.0" prefHeight="31.0" prefWidth="74.0" text="수정" />
+      <JFXButton fx:id="shop_add" buttonType="RAISED" layoutX="429.0" layoutY="450.0" prefHeight="31.0" prefWidth="74.0" text="추가" />
       <JFXButton fx:id="shop_delete" buttonType="RAISED" layoutX="503.0" layoutY="450.0" prefHeight="31.0" prefWidth="74.0" text="삭제" />
       <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="200.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
          <image>

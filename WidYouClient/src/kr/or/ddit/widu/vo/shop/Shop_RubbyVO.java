@@ -1,6 +1,8 @@
 package kr.or.ddit.widu.vo.shop;
 
-public class Shop_RubbyVO {
+import java.io.Serializable;
+
+public class Shop_RubbyVO implements Serializable{
 	
 	private int rubby_id;
 	private String rubby_name;
