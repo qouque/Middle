@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap
+			PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN"
+			"http://ibatis.apache.org/dtd/sql-map-2.dtd">
+<sqlMap namespace="shop">
+	<typeAlias alias="shopItemVO" type="kr.or.ddit.widu.vo.shop.Shop_ItemVO"/>
+	
+	<select id="selectAllItems" resultClass="shopItemVO">
+		SELECT * FROM SHOP_ITEM
+	</select>
+	
+	<insert id="insertItem" parameterClass="shopItemVO">
+		INSERT INTO SHOP_ITEM (SHOP_ID,
+                       SHOP_NAME,
+                       SHOP_DETAIL,
+                       SHOP_PRICE,
+                       SHOP_PICTURE) 
+		VALUES (SHOP_ITEM_SEQ.nextval,
+		        #shop_name#,
+		        #shop_detail#,
+		        #shop_price#,
+		        #shop_picture#) 
+	</insert>
+</sqlMap>
