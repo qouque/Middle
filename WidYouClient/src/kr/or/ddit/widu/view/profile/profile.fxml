@@ -51,6 +51,6 @@
       <Button onAction="#myBoardBtnClicked" fx:id="my_board_list_btn" layoutX="59.0" layoutY="431.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="387.0" text="작성게시글 조회" />
       <Button fx:id="center_list_btn" layoutX="59.0" layoutY="624.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="387.0" text=" 고객샌터 문의내역 조회하기" />
       <Button fx:id="buy_list_btn" layoutX="59.0" layoutY="495.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="387.0" text="구매내역확인" />
-      <Button fx:id="item_box_btn" layoutX="60.0" layoutY="561.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="387.0" text="아이템 보관함" />
+      <Button onAction="#item_box_btnClicked" fx:id="item_box_btn" layoutX="60.0" layoutY="561.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="387.0" text="아이템 보관함" />
    </children>
 </AnchorPane>

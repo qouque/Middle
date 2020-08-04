@@ -106,6 +106,16 @@ public class ProfileController implements Initializable{
 		
 		Store.hidMenu();
 	}
+
+	@FXML public void item_box_btnClicked(ActionEvent event) {
+		
+		Store.show_new_window(getClass().getResource("/kr/or/ddit/widu/view/profile/itembox.fxml"), "아이템 보관함");
+		
+		((Stage) ((Node) event.getSource()).getScene().getWindow()).close();
+		
+		Store.hidMenu();
+		
+	}
 	
 	
 }
