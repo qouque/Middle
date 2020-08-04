@@ -48,7 +48,7 @@
 	<typeAlias alias="rubyVO" type="kr.or.ddit.widu.vo.member.RubbyVO"/> <!-- 테이블명 수정할 예정 -->
 	<typeAlias alias="q_boardVO" type="kr.or.ddit.widu.vo.question.Question_BoardVO"/>
 	<typeAlias alias="r_boardVO" type="kr.or.ddit.widu.vo.report.Report_BoardVO"/>
-	<typeAlias alias="shop_itemVO" type="kr.or.ddit.widu.vo.shop.Report_BoardVO"/>
+	<typeAlias alias="shop_itemVO" type="kr.or.ddit.widu.vo.shop.Shop_ItemVO"/>
 	<typeAlias alias="shop_rubbyVO" type="kr.or.ddit.widu.vo.shop.Shop_RubbyVO"/> <!-- 테이블명 수정할 예정 -->
 	
 	

@@ -2,9 +2,12 @@ package kr.or.ddit.widu.service.profile;
 
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
+import java.util.List;
 
 import kr.or.ddit.widu.dao.profile.IProfileDao;
 import kr.or.ddit.widu.dao.profile.ProfileDaoImpl;
+import kr.or.ddit.widu.vo.shop.Shop_ItemVO;
+import sun.misc.REException;
 
 public class ProfileServiceImpl extends UnicastRemoteObject implements IProfileService{
 
@@ -31,6 +34,16 @@ public class ProfileServiceImpl extends UnicastRemoteObject implements IProfileS
 	@Override
 	public int countMyHate(String mem_id) throws RemoteException {
 		return dao.countMyHate(mem_id);
+	}
+
+	@Override
+	public List<Shop_ItemVO> selectMyItem(String mem_id) throws RemoteException {
+		return dao.selectMyItem(mem_id);
+	}
+
+	@Override
+	public Shop_ItemVO selectMyItemInfo(String shop_item_name) throws RemoteException {
+		return dao.selectMyItemInfo(shop_item_name);
 	}
 
 }

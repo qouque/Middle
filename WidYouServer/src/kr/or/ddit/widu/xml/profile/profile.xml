@@ -17,6 +17,17 @@
 	
 	</select>
 	
+	<select id="selectMyItem" parameterClass="String" resultClass="shop_itemVO">
+	
+	select * from shop_item where shop_id in (select shop_id from item_box where mem_id = #mem_id#)
+	
+	</select>
+	
+	<select id="selectMyItemInfo" parameterClass="String" resultClass="shop_itemVO">
+	
+	select * from shop_item where shop_name = #shop_item_name#
+	
+	</select>
 	
 </sqlMap>			
 
